@@ -57,42 +57,7 @@
 		function openSessionInNewWindow() {
 			var iboss = getParameter('ibip');
 			
-			var newWindow = window.open('http://' + getParameter('ibip') + '/user_login_small.html','iBossSessionWindow','toolbar=no, location=no, directories=no, status=no, menubar=no, scrollbars=yes, resizable=yes, width=625, height=650');
 			
-			if(iboss=='10.0.4.160'){
-				newWindow = window.open('http://cfreporter.pusd.us/block/login.html','iBossSessionWindow','toolbar=no, location=no, directories=no, status=no, menubar=no, scrollbars=yes, resizable=yes, width=625, height=650');
-			}
-
-			else if(iboss=='10.0.4.161'){
-				newWindow = window.open('http://cfreporter.pusd.us/block/login2.html','iBossSessionWindow','toolbar=no, location=no, directories=no, status=no, menubar=no, scrollbars=yes, resizable=yes, width=625, height=650');
-			}
-			else if(iboss=='10.0.4.162'){
-				newWindow = window.open('http://cfreporter.pusd.us/block/login3.html','iBossSessionWindow','toolbar=no, location=no, directories=no, status=no, menubar=no, scrollbars=yes, resizable=yes, width=625, height=650');
-			}
-			else if(iboss=='10.0.4.163'){
-				newWindow = window.open('http://cfreporter.pusd.us/block/login4.html','iBossSessionWindow','toolbar=no, location=no, directories=no, status=no, menubar=no, scrollbars=yes, resizable=yes, width=625, height=650');
-			}
-			else if(iboss=='10.0.4.164'){
-				newWindow = window.open('http://cfreporter.pusd.us/block/login5.html','iBossSessionWindow','toolbar=no, location=no, directories=no, status=no, menubar=no, scrollbars=yes, resizable=yes, width=625, height=650');
-			}
-			else if(iboss=='10.0.4.165'){
-				newWindow = window.open('http://cfreporter.pusd.us/block/login6.html','iBossSessionWindow','toolbar=no, location=no, directories=no, status=no, menubar=no, scrollbars=yes, resizable=yes, width=625, height=650');
-			}
-			else if(iboss=='10.0.4.166'){
-				newWindow = window.open('http://cfreporter.pusd.us/block/login7.html','iBossSessionWindow','toolbar=no, location=no, directories=no, status=no, menubar=no, scrollbars=yes, resizable=yes, width=625, height=650');
-			}
-			else if(iboss=='10.0.4.167'){
-				newWindow = window.open('http://cfreporter.pusd.us/block/login8.html','iBossSessionWindow','toolbar=no, location=no, directories=no, status=no, menubar=no, scrollbars=yes, resizable=yes, width=625, height=650');
-			}
-			else if(iboss=='10.0.4.168'){
-				newWindow = window.open('http://cfreporter.pusd.us/block/login9.html','iBossSessionWindow','toolbar=no, location=no, directories=no, status=no, menubar=no, scrollbars=yes, resizable=yes, width=625, height=650');
-			}
-			else if(iboss=='10.0.4.169'){
-				newWindow = window.open('http://cfreporter.pusd.us/block/login10.html','iBossSessionWindow','toolbar=no, location=no, directories=no, status=no, menubar=no, scrollbars=yes, resizable=yes, width=625, height=650');
-			}
-			else{
-				newWindow = window.open('http://cfreporter.pusd.us/block/mobile.html','iBossSessionWindow','toolbar=no, location=no, directories=no, status=no, menubar=no, scrollbars=yes, resizable=yes, width=625, height=650');
-			}
 
 			newWindow.focus();	
 			return false;
