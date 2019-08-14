@@ -1,6 +1,6 @@
 
 <!DOCTYPE html>
- <html>
+<html>
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<title>Page Restricted</title>
@@ -24,7 +24,7 @@
 				document.getElementById('loginDifferentUser').innerHTML = '<a href=\"javascript:openSessionInNewWindow();\" onClick=\"openSessionInNewWindow();this.blur();return false;\" class=\"submit-btn\">Login</a>';
 			}
 			if (getParameter('re') == '1') {
-				document.getElementById('exception1').innerHTML = 'Request An Exception';
+				 document.getElementById('exception1').innerHTML = 'Request An Exception';
 				document.getElementById('exception2').innerHTML = 'Reason:';
 				document.getElementById('exception3').innerHTML = '<textarea id="rem2" name="rem2" rows="3" cols="40"></textarea>';
 				document.getElementById('exception4').innerHTML = '<a href=\"javascript:requestOverride();\" class=\"submit-btn\" onClick=\"this.blur();\">Request Exception</a>';
